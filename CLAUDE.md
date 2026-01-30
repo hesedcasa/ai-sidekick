@@ -36,10 +36,6 @@ uv run pytest tests/smoke_test.py::test_function_name
 ```bash
 # Build distribution packages
 uv build
-
-# Note: The CI workflow also references `npm run build` in run-tests.yml:41,
-# but this appears to be a copy-paste error since this is a Python project.
-# Use `uv build` instead.
 ```
 
 ### Publishing

@@ -6,7 +6,7 @@ on:
       - 'ai-sidekick-v*'
   workflow_dispatch:
     inputs:
-      npm-publish:
+      pypi-publish:
         description: 'Try to publish to PyPI'
         default: false
         type: boolean
